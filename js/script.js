@@ -7,6 +7,7 @@ function init(){
     alert("Daniel McCray: " + textbox.value);
   }
 
-
+  button.addEventListener('click', showMeText);
   }
+  
 window.addEventListener('load', init);
